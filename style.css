@@ -1,0 +1,589 @@
+:root{
+    --base-color: #ffffff;
+    --text-color: black;
+    --other-text-color: #5f5f5f;
+    --opposite-base-color: black;
+    --border-color: #c6c6c6;
+    --alternative-base-color: rgb(213, 213, 213);
+}
+.darkmode{
+    --base-color: black;
+    --text-color: white;
+    --other-text-color: #A1A1A1;
+    --opposite-base-color: white;
+    --border-color: #27272A;
+    --alternative-base-color: rgb(53, 53, 53);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--base-color);
+    font-family: 'inter';
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid var(--border-color);
+}
+.omahti-logo{
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.navigation-list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+}
+.navigation-list ul li{
+    font-family: 'inter';
+    list-style: none;
+    color: var(--other-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 6px;
+}
+.navigation-list ul li:hover{
+    background-color: var(--alternative-base-color);
+}
+.navigation-bar-left{
+    display: flex;
+    align-items: center;
+}
+.navigation-bar-right{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    padding: 0 88px 0 88px;
+    justify-content: space-between;
+}
+.sign-in-button{
+    color: var(--text-color);
+    background-color: var(--base-color);
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+}
+.sign-up-button{
+    color: var(--base-color);
+    background-color: var(--opposite-base-color);
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+}
+.get-to-know-omahti{
+    font-family: 'inter';
+    padding: 73px 50px 73px 88px;
+    gap: 10px;
+}
+.all-div-omahti{
+    font-size: 16px; 
+    color: var(--text-color); 
+    font-weight: 600;
+}
+.get-insight-omahti{
+    font-size: 64px; 
+    color: var(--text-color); 
+    font-weight: 700; width: 693px;
+}
+.get-to-know-omahti p {
+    margin: 20px 0 20px 0;
+}
+.first-content-button{
+    display: flex;
+    gap: 10px;
+}
+.first-content-left{
+    border-top: 0.5px solid var(--border-color); 
+    border-right: 0.5px solid var(--border-color); 
+    border-bottom: 0.5px solid var(--border-color);
+}
+.first-content-right{
+    border-top: 0.5px solid var(--border-color); 
+    border-bottom: 0.5px solid var(--border-color);
+}
+.get-started-button{
+    color: var(--base-color);
+    background-color: var(--opposite-base-color);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.more-analytics-button{
+    color: var(--text-color);
+    background-color: var(--base-color);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+}
+.project-competition{
+    width: 100%;
+    display: flex;
+    font-family: 'inter';
+}
+.project-competition p{
+    color: var(--text-color);
+    font-weight: 700;
+}
+.project-competition span{
+    color: var(--other-text-color);
+    font-weight: 500;
+}
+.project-competition-title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--other-text-color);
+}
+.project-competition-title p{
+    color: var(--other-text-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.project-tracking-competition-analytics{
+    width: 50%;
+    padding: 58px 88px 58px 88px;
+}
+.project-competition-image{
+    width: 100%;
+}
+.tinggi-paragraf{
+    height: 145px;
+    font-size: 36px;
+    margin: 0;
+}
+footer{
+    display: flex;
+    font-family: 'inter';
+    font-size: 24px;
+    justify-content: space-around;
+}
+footer p{
+    color: var(--other-text-color);
+}
+footer ul{
+    color: #0090FF;
+}
+.footer-title{
+    color: var(--text-color);
+}
+.other-content{
+    padding: 58px;
+}
+.latest-project{
+    display: flex;
+}
+.ltst-prjct-left{
+    border: 0.5px solid var(--border-color);
+    border-bottom: 0;
+    padding: 44px; 
+    width: 60%;
+}
+.projects-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid var(--border-color);
+    border-left: 0px;
+    border-bottom: 0;
+    gap: 0;
+    padding: 44px;
+}
+.latest-project-paragraph{
+    font-size: 64px; 
+    font-weight: 700; 
+    color: var(--text-color);
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.contri-para{
+    color: var(--text-color); 
+    margin: 0 0 5px 0;
+}
+.list-project{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-image{
+    width: 50%;
+    padding: 10px 15px 30px 15px;
+}
+.border-image-project{
+    border: 1px solid var(--border-color); 
+}
+.images-button{
+    background-color: var(--opposite-base-color); 
+    display: flex; 
+    align-items: center; 
+    font-family: 'inter';
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    gap: 5px;
+    cursor: pointer;
+    color: var(--base-color);
+}
+.images-button p{
+    margin: 0;
+}
+.image-project-title{
+    font-size: 24px; 
+    font-weight: 700; 
+    color: var(--opposite-base-color); 
+    margin: 21px;
+}
+.names-container{
+    font-size: 24px;
+    font-weight: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.ul-name-list{
+    color: var(--other-text-color); 
+    margin: 0;
+}
+.other-names-button{
+    color: var(--other-text-color); 
+    cursor: pointer;
+}
+
+.hidden-name{
+    display: none;
+}
+
+.hidden-images{
+    display: none;
+    list-style: none;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#theme-switch svg{
+    fill: var(--opposite-base-color);
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
+#button-projects{
+    display: flex;
+}
+#button-projects svg{
+    fill: var(--base-color);
+}
+#button-projects svg:last-child{
+    display: none;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+}
+.ready-to-share{
+    margin: 0;
+    padding: 0 44px 44px 44px;
+    border: 0.5px solid var(--border-color);
+    border-top: 0;
+}
+.lupa-ini{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+.lupa-lupa{
+    color: var(--other-text-color);
+    font-weight: 500;
+    font-size: 36px;
+}
+.lupa-expert{
+    color: #0090FF;
+    font-weight: 500;
+    font-size: 36px;
+}
+.lupa-lagi{
+    color: var(--other-text-color);
+    font-weight: 500;
+    font-size: 36px;
+}
+
+/*penyesuaian lain*/
+@media screen and (max-width: 1067px){
+    .tinggi-paragraf{
+        height: 190px
+    }
+}
+
+/* tablet landscape*/
+@media screen and (max-width: 1024px){
+    .navigation-bar{
+        padding: 0 58px 0 58px;
+    }
+    .get-to-know-omahti{
+        padding: 43px 20px 43px 58px;
+    }
+    .tinggi-paragraf{
+        height: 170px;
+    }
+    .project-image{
+        width: 50%;
+    }
+    .latest-project-paragraph{
+        font-size: 32px;
+    }
+    .image-project-title{
+        font-size: 20px;
+    }
+    .names-container{
+        font-size: 18px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    .images-button p{
+        font-size: 20px;
+    }
+}
+
+/*penyesuaian lain*/
+@media screen and (max-width: 935px){
+    .tinggi-paragraf{
+        height: 270px
+    }
+}
+
+/* tablet portrait*/
+@media screen and (max-width: 834px){
+    .tinggi-paragraf{
+        height: 150px;
+        margin: 0 0 10px 0;
+    }
+    .project-competition-title p{
+        font-size: 20px;
+    }
+    .tinggi-paragraf{
+        font-size: 28px;
+    }
+    .tinggi-paragraf span{
+        font-size: 28px;
+    }
+    .project-tracking-competition-analytics{
+        padding: 28x 58px 58px 58px;
+    }
+    .image-project-title{
+        font-size: 15px;
+        margin: 7px 10px 10px 10px;
+    }
+    .images-button{
+        font-size: 10px;
+        padding: 5px 20px 5px 20px;
+        gap: 3px;
+    }
+    .navigation-list ul{
+        gap: 15px;
+    }
+    .omahti-logo{
+        font-size: 18px;
+    }
+    .sign-in-button{
+        font-size: 12px;
+    }
+    .sign-up-button{
+        font-size: 12px;
+    }
+}
+
+/*penyesuaian lain*/
+@media screen and (max-width: 802px){
+    .tinggi-paragraf{
+        height: 180px
+    }
+}
+
+/* hp landscape*/
+@media screen and (max-width: 768px){
+    .get-insight-omahti{
+        width: 100%;
+    }
+    .navigation-bar{
+        padding: 0 38px 0 38px;
+    }
+    .get-to-know-omahti{
+        padding: 23px 38px 30px 38px;
+    }
+    .navigation-list ul{
+        gap: 10px;
+    }
+    .project-tracking-competition-analytics{
+        padding: 10px 38px 20px 38px;
+    }
+    .tinggi-paragraf{
+        height: 110px;
+        margin: 0 0 10px 0;
+    }
+    .latest-project-paragraph{
+        font-size: 28px;
+    }
+    .ltst-prjct-left{
+        padding: 20px;
+    }
+    .contri-para{
+        font-size: 16px;
+    }
+    .ul-name-list{
+        font-size: 16px;
+    }
+    .other-names-button{
+        font-size: 16px;
+    }
+    .other-content{
+        padding: 38px;
+    }
+    .projects-container{
+        padding: 20px;
+    }
+    .ready-to-share{
+        padding: 0 20px 20px 20px;
+    }
+    .lupa-ini{
+        font-size: 28px;
+    }
+    .lupa-lupa{
+        font-size: 28px;
+    }
+    .lupa-expert{
+        font-size: 28px;
+    }
+    .lupa-lagi{
+        font-size: 28px;
+    }
+}
+
+/*penyesuaian lain*/
+@media screen and (max-width: 710px){
+    .tinggi-paragraf{
+        height: 170px
+    }
+}
+
+/* hp portrait*/
+@media screen and (max-width: 480px){
+    .navigation-bar{
+        padding: 0 15px 0 15px;
+    }
+    .get-to-know-omahti{
+        padding: 18px 15px 28px 15px;
+    }
+    .project-tracking-competition-analytics{
+        padding: 10px 15px 20px 15px;
+    }
+    .navigation-list{
+        display: none;
+    }
+    .all-div-omahti{
+        font-size: 12px;
+    }
+    .get-insight-omahti{
+        width: 100%;
+        font-size: 36px;
+    }
+    .get-started-button{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 8px 8px 8px; 
+    }
+    .more-analytics-button{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 8px 8px 8px;
+    }
+    .project-competition-title p{
+        font-size: 12px;
+    }
+    .project-competition-title img{
+        width: 12px;
+    }
+    .tinggi-paragraf{
+        font-size: 15px;
+        height: 60px;
+    }
+    .tinggi-paragraf span{
+        font-size: 15px;
+    }
+    .other-content{
+        padding: 15px;
+    }
+    .latest-project{
+        flex-direction: column;
+    }
+    .ltst-prjct-left{
+        width: 100%;
+    }
+    .contri-para{
+        font-size: 12px;
+    }
+    .ul-name-list{
+        font-size: 12px;
+    }
+    .other-names-button{
+        font-size: 12px;
+    }
+    .projects-container{
+        border: 0.5px solid var(--border-color);
+        border-top: 0;
+    }
+    .lupa-ini{
+        font-size: 22px;
+    }
+    .lupa-lupa{
+        font-size: 22px;
+    }
+    .lupa-expert{
+        font-size: 22px;
+    }
+    .lupa-lagi{
+        font-size: 22px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}

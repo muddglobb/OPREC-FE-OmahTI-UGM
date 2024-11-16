@@ -1,5 +1,5 @@
 Kepada tim pemeriksa,
-Terimakasih telajh mengecek project saya
+Terimakasih telah mengecek project saya
 
 Pada website ini, selain menggunakan HTML dan CSS, saya juga menggunakan JavaScript untuk responsifitas.
 1. Penggunaan function change mode, untuk mengubah tema dari website. Website ini dapat menggunakan light mode dan dark mode. Untuk menggunakannya dapat menekan tombol moon/sun yang ada di sebelah tombol sign in.

@@ -234,6 +234,7 @@ footer ul{
 .project-image{
     width: 50%;
     padding: 10px 15px 30px 15px;
+
 }
 .border-image-project{
     border: 1px solid var(--border-color); 
@@ -372,6 +373,7 @@ footer ul{
     }
     .image-project-title{
         font-size: 20px;
+        height: 55px;
     }
     .names-container{
         font-size: 18px;
@@ -412,6 +414,7 @@ footer ul{
     .image-project-title{
         font-size: 15px;
         margin: 7px 10px 10px 10px;
+        height: 40px;
     }
     .images-button{
         font-size: 10px;
@@ -587,3 +590,4 @@ footer ul{
         font-size: 10px;
     }
 }
+/*cek update*/
